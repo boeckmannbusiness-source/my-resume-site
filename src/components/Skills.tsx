@@ -1,15 +1,19 @@
 const skillCategories = [
   {
-    title: "Frontend",
-    skills: ["React", "TypeScript", "Next.js", "Tailwind CSS", "Vue.js"],
+    title: "Marketing & Strategy",
+    skills: ["Growth Strategy", "Performance Marketing", "Digital Marketing", "DACH Market Expertise", "Customer Acquisition"],
   },
   {
-    title: "Backend",
-    skills: ["Node.js", "Python", "PostgreSQL", "REST APIs", "GraphQL"],
+    title: "Channels & Platforms",
+    skills: ["Google Ads", "Meta Ads", "SEA", "SEO", "Affiliate Marketing", "Amazon Ads", "Retargeting", "PLA"],
   },
   {
-    title: "Tools & Others",
-    skills: ["Git", "Docker", "AWS", "Figma", "Agile/Scrum"],
+    title: "Analytics & Optimization",
+    skills: ["Google Analytics", "Google Tag Manager", "Web Analytics", "CRO", "A/B Testing", "ROAS Optimization", "LTV/CAC Analysis"],
+  },
+  {
+    title: "Leadership",
+    skills: ["Team Leadership", "Budget Management", "Project Management", "Cross-functional Collaboration", "Market Research"],
   },
 ];
 
@@ -22,26 +26,26 @@ const Skills = () => {
             Expertise
           </p>
           <h2 className="font-serif text-4xl md:text-5xl font-medium text-foreground">
-            Skills & Technologies
+            Skills & Competencies
           </h2>
         </div>
 
-        <div className="grid md:grid-cols-3 gap-8 md:gap-12">
+        <div className="grid md:grid-cols-2 gap-12">
           {skillCategories.map((category, index) => (
-            <div key={index} className="text-center md:text-left">
-              <h3 className="font-serif text-xl font-medium text-foreground mb-6">
+            <div key={index}>
+              <h3 className="font-serif text-xl font-medium text-foreground mb-6 pb-2 border-b border-border">
                 {category.title}
               </h3>
-              <ul className="space-y-3">
+              <div className="flex flex-wrap gap-2">
                 {category.skills.map((skill, skillIndex) => (
-                  <li
+                  <span
                     key={skillIndex}
-                    className="text-muted-foreground hover:text-foreground transition-colors"
+                    className="px-3 py-1.5 text-sm bg-secondary text-secondary-foreground rounded-full hover:bg-accent hover:text-accent-foreground transition-colors"
                   >
                     {skill}
-                  </li>
+                  </span>
                 ))}
-              </ul>
+              </div>
             </div>
           ))}
         </div>

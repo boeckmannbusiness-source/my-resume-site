@@ -8,20 +8,22 @@ const About = () => {
               About Me
             </p>
             <h2 className="font-serif text-4xl md:text-5xl font-medium text-foreground mb-6">
-              Passionate about Creative Problem Solving
+              Driving Growth Through Data & Strategy
             </h2>
           </div>
           
           <div className="space-y-6">
             <p className="text-muted-foreground leading-relaxed">
-              I'm a Design Engineer based in Munich, Germany, currently working at 
-              Brainlab R&D where I develop innovative medical technology solutions. 
-              I combine engineering expertise with creative thinking to solve complex problems.
+              I'm a growth-focused digital marketing leader based in Germany with over 
+              a decade of experience driving measurable results across the DACH region. 
+              I specialize in performance marketing, rapid experimentation, and 
+              cross-functional collaboration.
             </p>
             <p className="text-muted-foreground leading-relaxed">
-              At Brainlab, I work on cutting-edge technologies that make a real 
-              difference in healthcare. I'm driven by the challenge of turning 
-              complex requirements into elegant, functional designs.
+              With a proven track record of optimizing ROAS and scaling new growth 
+              channels for B2C and B2B brands, I leverage analytics to inform strategy 
+              and uncover untapped market opportunities. I've managed multi-million 
+              euro budgets and led teams of up to 17 specialists.
             </p>
             <div className="pt-4">
               <a
