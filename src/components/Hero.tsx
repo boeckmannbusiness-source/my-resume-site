@@ -5,7 +5,7 @@ const Hero = () => {
     <section className="min-h-screen flex flex-col justify-center items-center px-6 pt-20">
       <div className="max-w-3xl text-center">
         <p className="text-sm uppercase tracking-[0.3em] text-muted-foreground mb-6 opacity-0 animate-fade-up">
-          Welcome
+          Design Engineer
         </p>
         
         <h1 className="font-serif text-5xl md:text-7xl lg:text-8xl font-medium text-foreground mb-6 opacity-0 animate-fade-up animation-delay-100">
@@ -13,7 +13,7 @@ const Hero = () => {
         </h1>
         
         <p className="text-lg md:text-xl text-muted-foreground max-w-xl mx-auto mb-8 opacity-0 animate-fade-up animation-delay-200">
-          Software Developer & Creative Technologist crafting elegant digital experiences
+          Design Engineer at Brainlab R&D — Passionate about Creative Problem Solving
         </p>
         
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4 opacity-0 animate-fade-up animation-delay-300">

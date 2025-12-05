@@ -2,28 +2,28 @@ import { Mail, Linkedin, Github, MapPin } from "lucide-react";
 
 const contactLinks = [
   {
-    icon: Mail,
-    label: "Email",
-    value: "julian@example.com",
-    href: "mailto:julian@example.com",
-  },
-  {
     icon: Linkedin,
     label: "LinkedIn",
-    value: "linkedin.com/in/julian",
-    href: "https://linkedin.com/in/julian",
-  },
-  {
-    icon: Github,
-    label: "GitHub",
-    value: "github.com/julian",
-    href: "https://github.com/julian",
+    value: "Julian Böckmann",
+    href: "https://www.linkedin.com/in/julian-boeckmann",
   },
   {
     icon: MapPin,
     label: "Location",
-    value: "Germany",
+    value: "Munich, Germany",
     href: null,
+  },
+  {
+    icon: Mail,
+    label: "Email",
+    value: "Get in touch",
+    href: "mailto:julian@example.com",
+  },
+  {
+    icon: Github,
+    label: "GitHub",
+    value: "View projects",
+    href: "https://github.com",
   },
 ];
 
@@ -40,7 +40,7 @@ const Contact = () => {
           </h2>
           <p className="text-muted-foreground max-w-lg mx-auto">
             I'm always interested in hearing about new opportunities, 
-            collaborations, or just having a chat about technology and design.
+            collaborations, or discussing innovative solutions in medical technology.
           </p>
         </div>
 

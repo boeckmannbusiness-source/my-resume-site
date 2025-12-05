@@ -1,22 +1,11 @@
 const experiences = [
   {
-    title: "Senior Software Developer",
-    company: "Tech Company",
-    period: "2022 — Present",
-    description: "Leading development of scalable web applications and mentoring junior developers. Focused on performance optimization and best practices.",
+    title: "Design Engineer / Projektingenieur",
+    company: "Brainlab R&D",
+    period: "Jun 2023 — Present",
+    description: "Working on innovative medical technology solutions at one of the leading digital medical technology companies. Contributing to R&D projects that advance healthcare through precision technology.",
   },
-  {
-    title: "Software Developer",
-    company: "Digital Agency",
-    period: "2020 — 2022",
-    description: "Built custom web solutions for diverse clients. Collaborated with designers and stakeholders to deliver high-quality products.",
-  },
-  {
-    title: "Junior Developer",
-    company: "Startup",
-    period: "2018 — 2020",
-    description: "Developed features for the core product, participated in code reviews, and contributed to architectural decisions.",
-  },
+  // Add more experiences here
 ];
 
 const Experience = () => {
@@ -57,6 +46,12 @@ const Experience = () => {
               </p>
             </div>
           ))}
+        </div>
+
+        <div className="mt-12 text-center">
+          <p className="text-muted-foreground text-sm">
+            More experience details coming soon
+          </p>
         </div>
       </div>
     </section>
