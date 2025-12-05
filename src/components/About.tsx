@@ -8,26 +8,27 @@ const About = () => {
               About Me
             </p>
             <h2 className="font-serif text-4xl md:text-5xl font-medium text-foreground mb-6">
-              Passionate about creating meaningful experiences
+              Passionate about Creative Problem Solving
             </h2>
           </div>
           
           <div className="space-y-6">
             <p className="text-muted-foreground leading-relaxed">
-              I'm a software developer based in Germany with a passion for building 
-              elegant, user-centric applications. With expertise in modern web technologies, 
-              I bring ideas to life through clean code and thoughtful design.
+              I'm a Design Engineer based in Munich, Germany, currently working at 
+              Brainlab R&D where I develop innovative medical technology solutions. 
+              I combine engineering expertise with creative thinking to solve complex problems.
             </p>
             <p className="text-muted-foreground leading-relaxed">
-              When I'm not coding, you can find me exploring new technologies, 
-              contributing to open-source projects, or enjoying the outdoors.
+              At Brainlab, I work on cutting-edge technologies that make a real 
+              difference in healthcare. I'm driven by the challenge of turning 
+              complex requirements into elegant, functional designs.
             </p>
             <div className="pt-4">
               <a
                 href="#contact"
                 className="inline-flex items-center text-foreground font-medium link-underline"
               >
-                Let's work together
+                Let's connect
                 <span className="ml-2">→</span>
               </a>
             </div>
