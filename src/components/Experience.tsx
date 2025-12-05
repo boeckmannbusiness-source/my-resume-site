@@ -1,11 +1,58 @@
 const experiences = [
   {
-    title: "Design Engineer / Projektingenieur",
-    company: "Brainlab R&D",
-    period: "Jun 2023 — Present",
-    description: "Working on innovative medical technology solutions at one of the leading digital medical technology companies. Contributing to R&D projects that advance healthcare through precision technology.",
+    title: "Head of Performance Marketing",
+    company: "AKKU SYS",
+    period: "Jan 2024 — Present",
+    description: "Orchestrating end-to-end performance marketing strategy, boosting multi-channel growth for B2C/B2B e-commerce platforms in DACH. Increased qualified leads by 32% within 6 months. Managing €1M+ marketing budget and leading a team of 5 specialists.",
   },
-  // Add more experiences here
+  {
+    title: "Team Lead Online Marketing",
+    company: "VISABLE",
+    period: "Oct 2021 — Dec 2023",
+    description: "Spearheaded a 17-member team delivering Google Ads, PLA, and retargeting services for B2B SMEs across DACH. Achieved 22% increase in ROAS and reduced time-to-launch by 25% through standardized processes.",
+  },
+  {
+    title: "Head of Performance Marketing",
+    company: "FRISCHEPOST",
+    period: "Sep 2020 — Sep 2021",
+    description: "Built and scaled digital marketing channels from the ground up, driving 40% YoY growth for a fast-scaling e-commerce startup. Managed six-figure budgets optimizing for LTV/CAC and rapid market penetration.",
+  },
+  {
+    title: "Head of Marketing",
+    company: "FIT REISEN GmbH",
+    period: "Jan 2020 — Aug 2020",
+    description: "Directed integrated marketing across digital and offline channels. Oversaw SEA, retargeting, affiliation, CRM, and print, maintaining customer engagement during pandemic disruptions.",
+  },
+  {
+    title: "Head of SEA",
+    company: "TOOLPORT",
+    period: "Aug 2017 — Jul 2019",
+    description: "Owned strategic planning and optimization of SEA, retargeting, PLA, and Amazon Ads for B2C/B2B shops in DACH. Increased campaign ROI by 27% through CRO and A/B testing.",
+  },
+  {
+    title: "Digital Marketing Manager",
+    company: "PHILIPS LIGHTING",
+    period: "Jan 2015 — Jan 2017",
+    description: "Coordinated SEM for DACH, launching Amazon Sponsored Search pilots and supporting RTB/programmatic campaigns. Leveraged web analytics to optimize performance and inform growth initiatives.",
+  },
+  {
+    title: "SEM Executive",
+    company: "eDreams ODIGEO",
+    period: "Jan 2014 — Jan 2015",
+    description: "Managed paid search campaigns for flight search and dynamic packaging, optimizing for ROAS in a competitive travel market.",
+  },
+  {
+    title: "Product Marketing Manager",
+    company: "InnoGames",
+    period: "Jan 2013 — Jan 2014",
+    description: "Launched marketing for a new free-to-play game, coordinating CRM, SEO, performance, and TV/social campaigns.",
+  },
+  {
+    title: "SEM Manager",
+    company: "CASAMUNDO",
+    period: "Jan 2011 — Jan 2013",
+    description: "Planned and managed international SEA campaigns, implementing tracking and tag management with Google Tag Manager. Ran display and retargeting campaigns.",
+  },
 ];
 
 const Experience = () => {
@@ -17,11 +64,11 @@ const Experience = () => {
             Career
           </p>
           <h2 className="font-serif text-4xl md:text-5xl font-medium text-foreground">
-            Experience
+            10+ Years of Experience
           </h2>
         </div>
 
-        <div className="space-y-12">
+        <div className="space-y-10">
           {experiences.map((exp, index) => (
             <div
               key={index}
@@ -46,12 +93,6 @@ const Experience = () => {
               </p>
             </div>
           ))}
-        </div>
-
-        <div className="mt-12 text-center">
-          <p className="text-muted-foreground text-sm">
-            More experience details coming soon
-          </p>
         </div>
       </div>
     </section>
