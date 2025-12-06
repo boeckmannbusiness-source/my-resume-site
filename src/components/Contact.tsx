@@ -1,4 +1,4 @@
-import { Mail, Globe, MapPin } from "lucide-react";
+import { Mail, Globe, MapPin, Linkedin, Headphones, Users } from "lucide-react";
 
 const contactLinks = [
   {
@@ -8,10 +8,28 @@ const contactLinks = [
     href: "mailto:julian.boeckmann@googlemail.com",
   },
   {
+    icon: Linkedin,
+    label: "LinkedIn",
+    value: "linkedin.com/in/julian-boeckmann",
+    href: "https://www.linkedin.com/in/julian-boeckmann",
+  },
+  {
+    icon: Users,
+    label: "Xing",
+    value: "xing.com/profile/Julian_Boeckmann",
+    href: "https://www.xing.com/profile/Julian_Boeckmann",
+  },
+  {
     icon: Globe,
     label: "Profile",
     value: "himalayas.app/@julianbckmann",
     href: "https://himalayas.app/@julianbckmann",
+  },
+  {
+    icon: Headphones,
+    label: "Podcast (DE)",
+    value: "Mein Lebenslauf als Podcast",
+    href: "https://on.soundcloud.com/VVZViQPX4BhYjX3GuE",
   },
   {
     icon: MapPin,
@@ -38,7 +56,7 @@ const Contact = () => {
           </p>
         </div>
 
-        <div className="grid sm:grid-cols-3 gap-6 max-w-3xl mx-auto">
+        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 max-w-4xl mx-auto">
           {contactLinks.map((contact, index) => (
             <div
               key={index}
