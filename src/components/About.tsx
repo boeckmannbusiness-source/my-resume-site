@@ -1,47 +1,49 @@
 import { Users, Target, BarChart3, Briefcase, RefreshCw, Sparkles } from "lucide-react";
-
-const competencies = [
-  {
-    icon: Users,
-    title: "Leadership & People Management",
-    description: "Team Lead since 2017, building and leading teams of up to 17 direct reports, fostering an agile and data-driven work culture.",
-  },
-  {
-    icon: Target,
-    title: "Performance Marketing Strategy",
-    description: "Holistic strategy, budgeting, and execution of campaigns across SEA, Social Ads, Display, Affiliate, and Retargeting.",
-  },
-  {
-    icon: BarChart3,
-    title: "Data & Analytics",
-    description: "Ensuring precise data for informed decision-making using Google Analytics and Google Tag Manager.",
-  },
-  {
-    icon: Briefcase,
-    title: "Sector Expertise",
-    description: "Extensive experience in e-commerce (B2B and B2C), travel sector, and gaming industry.",
-  },
-  {
-    icon: RefreshCw,
-    title: "Agile Methodologies",
-    description: "Experienced in implementing agile methods and coordinating with international teams.",
-  },
-];
+import { useLanguage } from "@/contexts/LanguageContext";
 
 const About = () => {
+  const { t } = useLanguage();
+
+  const competencies = [
+    {
+      icon: Users,
+      titleKey: "about.competency.leadership",
+      descKey: "about.competency.leadership.desc",
+    },
+    {
+      icon: Target,
+      titleKey: "about.competency.strategy",
+      descKey: "about.competency.strategy.desc",
+    },
+    {
+      icon: BarChart3,
+      titleKey: "about.competency.analytics",
+      descKey: "about.competency.analytics.desc",
+    },
+    {
+      icon: Briefcase,
+      titleKey: "about.competency.expertise",
+      descKey: "about.competency.expertise.desc",
+    },
+    {
+      icon: RefreshCw,
+      titleKey: "about.competency.agile",
+      descKey: "about.competency.agile.desc",
+    },
+  ];
+
   return (
     <section id="about" className="py-24 md:py-32 px-6">
       <div className="container mx-auto max-w-5xl">
         <div className="text-center mb-16">
           <p className="text-sm uppercase tracking-[0.2em] text-accent mb-4">
-            About Me
+            {t("about.label")}
           </p>
           <h2 className="font-serif text-4xl md:text-5xl font-medium text-foreground mb-6">
-            Driving Growth Through Data & Strategy
+            {t("about.title")}
           </h2>
           <p className="text-muted-foreground leading-relaxed max-w-2xl mx-auto text-lg">
-            With over 14 years of experience in performance marketing, I lead the growth 
-            of e-commerce platforms and build high-performing teams.
+            {t("about.description")}
           </p>
         </div>
 
@@ -54,9 +56,9 @@ const About = () => {
               <div className="w-12 h-12 flex items-center justify-center rounded-full bg-background mb-4 group-hover:bg-accent/10 transition-colors">
                 <competency.icon className="w-5 h-5 text-muted-foreground group-hover:text-accent transition-colors" />
               </div>
-              <h3 className="font-medium text-foreground mb-2">{competency.title}</h3>
+              <h3 className="font-medium text-foreground mb-2">{t(competency.titleKey)}</h3>
               <p className="text-sm text-muted-foreground leading-relaxed">
-                {competency.description}
+                {t(competency.descKey)}
               </p>
             </div>
           ))}
@@ -71,9 +73,9 @@ const About = () => {
             <div className="w-12 h-12 flex items-center justify-center rounded-full bg-background mb-4 group-hover:bg-accent/10 transition-colors">
               <Sparkles className="w-5 h-5 text-muted-foreground group-hover:text-accent transition-colors" />
             </div>
-            <h3 className="font-medium text-foreground mb-2">Personality Profile</h3>
+            <h3 className="font-medium text-foreground mb-2">{t("about.competency.personality")}</h3>
             <p className="text-sm text-muted-foreground leading-relaxed">
-              Adventurer (ISFP-A) — View my 16 Personalities profile →
+              {t("about.competency.personality.desc")}
             </p>
           </a>
         </div>
@@ -83,7 +85,7 @@ const About = () => {
             href="#contact"
             className="inline-flex items-center text-foreground font-medium link-underline"
           >
-            Let's connect
+            {t("about.cta")}
             <span className="ml-2">→</span>
           </a>
         </div>

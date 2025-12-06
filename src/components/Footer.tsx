@@ -1,4 +1,7 @@
+import { useLanguage } from "@/contexts/LanguageContext";
+
 const Footer = () => {
+  const { t } = useLanguage();
   const currentYear = new Date().getFullYear();
 
   return (
@@ -6,10 +9,10 @@ const Footer = () => {
       <div className="container mx-auto max-w-4xl">
         <div className="flex flex-col md:flex-row items-center justify-between gap-4">
           <p className="text-sm text-muted-foreground">
-            © {currentYear} Julian Böckmann. All rights reserved.
+            © {currentYear} Julian Böckmann. {t("footer.rights")}
           </p>
           <p className="text-sm text-muted-foreground">
-            Crafted with care
+            {t("footer.crafted")}
           </p>
         </div>
       </div>
