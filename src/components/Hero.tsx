@@ -1,11 +1,14 @@
 import { ArrowDown } from "lucide-react";
+import { useLanguage } from "@/contexts/LanguageContext";
 
 const Hero = () => {
+  const { t } = useLanguage();
+
   return (
     <section className="min-h-screen flex flex-col justify-center items-center px-6 pt-20">
       <div className="max-w-3xl text-center">
         <p className="text-sm uppercase tracking-[0.3em] text-muted-foreground mb-6 opacity-0 animate-fade-up">
-          Performance Marketing Leader
+          {t("hero.subtitle")}
         </p>
         
         <h1 className="font-serif text-5xl md:text-7xl lg:text-8xl font-medium text-foreground mb-6 opacity-0 animate-fade-up animation-delay-100">
@@ -13,7 +16,7 @@ const Hero = () => {
         </h1>
         
         <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto mb-8 opacity-0 animate-fade-up animation-delay-200">
-          Growth-focused digital marketing leader with 10+ years' experience driving measurable results across the DACH region
+          {t("hero.description")}
         </p>
         
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4 opacity-0 animate-fade-up animation-delay-300">
@@ -21,13 +24,13 @@ const Hero = () => {
             href="#contact"
             className="px-8 py-3 bg-foreground text-background font-medium text-sm rounded-full hover:bg-foreground/90 transition-colors"
           >
-            Get in Touch
+            {t("hero.cta")}
           </a>
           <a
             href="#experience"
             className="px-8 py-3 border border-border text-foreground font-medium text-sm rounded-full hover:bg-secondary transition-colors"
           >
-            View Experience
+            {t("hero.secondary")}
           </a>
         </div>
       </div>
