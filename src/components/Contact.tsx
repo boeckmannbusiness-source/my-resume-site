@@ -8,8 +8,8 @@ const Contact = () => {
     {
       icon: Mail,
       labelKey: "contact.email",
-      value: "julian.boeckmann@googlemail.com",
-      href: "mailto:julian.boeckmann@googlemail.com",
+      value: "moin@julianboeckmann.de",
+      href: "mailto:moin@julianboeckmann.de",
     },
     {
       icon: Linkedin,
@@ -59,34 +59,46 @@ const Contact = () => {
         </div>
 
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 max-w-4xl mx-auto">
-          {contactLinks.map((contact, index) => (
-            <div
-              key={index}
-              className="group flex flex-col items-center text-center p-6 bg-secondary/50 rounded-lg hover:bg-secondary transition-colors"
-            >
-              <div className="w-14 h-14 flex items-center justify-center rounded-full bg-background mb-4 group-hover:bg-accent/10 transition-colors">
-                <contact.icon className="w-6 h-6 text-muted-foreground group-hover:text-accent transition-colors" />
-              </div>
-              <p className="text-sm text-muted-foreground mb-2">{t(contact.labelKey)}</p>
-              {contact.href ? (
+          {contactLinks.map((contact, index) => {
+            const content = (
+              <>
+                <div className="w-14 h-14 flex items-center justify-center rounded-full bg-background mb-4 group-hover:bg-accent/10 transition-colors">
+                  <contact.icon className="w-6 h-6 text-muted-foreground group-hover:text-accent transition-colors" />
+                </div>
+                <p className="text-sm text-muted-foreground mb-2">{t(contact.labelKey)}</p>
+                <span className="text-foreground font-medium text-sm break-all group-hover:text-accent transition-colors">
+                  {contact.valueKey ? t(contact.valueKey) : contact.value}
+                </span>
+              </>
+            );
+
+            const className = "group flex flex-col items-center text-center p-6 bg-secondary/50 rounded-lg hover:bg-secondary transition-colors";
+
+            if (contact.href) {
+              return (
                 <a
+                  key={index}
                   href={contact.href}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-foreground font-medium hover:text-accent transition-colors text-sm break-all"
+                  className={className}
                 >
-                  {contact.valueKey ? t(contact.valueKey) : contact.value}
+                  {content}
                 </a>
-              ) : (
-                <span className="text-foreground font-medium text-sm">{contact.value}</span>
-              )}
-            </div>
-          ))}
+              );
+            }
+
+            return (
+              <div key={index} className={className}>
+                {content}
+              </div>
+            );
+          })}
         </div>
 
         <div className="mt-16 text-center">
           <a
-            href="mailto:julian.boeckmann@googlemail.com"
+            href="mailto:moin@julianboeckmann.de"
             className="inline-flex items-center px-8 py-4 bg-foreground text-background font-medium rounded-full hover:bg-foreground/90 transition-colors"
           >
             {t("contact.cta")}
