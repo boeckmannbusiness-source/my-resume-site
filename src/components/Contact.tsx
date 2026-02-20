@@ -33,7 +33,7 @@ const Contact = () => {
       icon: Headphones,
       labelKey: "contact.podcast",
       valueKey: "contact.podcast.value",
-      href: "https://on.soundcloud.com/VVZViQPX4BhYjX3GuE",
+      href: "https://soundcloud.com/julian-boeckmann-111336156/podcast-cv?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
     },
     {
       icon: MapPin,
