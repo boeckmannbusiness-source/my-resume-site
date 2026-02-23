@@ -187,6 +187,7 @@ const translations = {
     // Footer
     "footer.rights": "Alle Rechte vorbehalten.",
     "footer.crafted": "Mit Sorgfalt erstellt",
+    "imprint.link": "Impressum",
 
     // Imprint
     "imprint.title": "Impressum",
