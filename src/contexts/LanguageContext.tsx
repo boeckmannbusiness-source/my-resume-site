@@ -90,6 +90,21 @@ const translations = {
     // Footer
     "footer.rights": "All rights reserved.",
     "footer.crafted": "Crafted with care",
+
+    // Imprint
+    "imprint.title": "Legal Notice (Impressum)",
+    "imprint.tmg": "Information according to § 5 TMG",
+    "imprint.name": "Julian Böckmann",
+    "imprint.address": "Zum Ausspann 2a, 22419 Hamburg, Germany",
+    "imprint.contact.label": "Contact Info",
+    "imprint.contact.email": "E-Mail:",
+    "imprint.contact.email.value": "moin@julianboeckmann.de",
+    "imprint.vat.label": "VAT Identification",
+    "imprint.vat.text": "Exempt from VAT according to Section 19 of the German Value Added Tax Act (Kleinunternehmerregelung / small business regulation).",
+    "imprint.dispute.label": "Dispute Resolution",
+    "imprint.dispute.text": "We are neither obligated nor willing to participate in dispute resolution proceedings before a consumer arbitration board.",
+    "imprint.lastUpdated": "Last Updated: February 23, 2026",
+    "imprint.back": "Back to Home",
   },
   de: {
     // Nav
@@ -172,6 +187,21 @@ const translations = {
     // Footer
     "footer.rights": "Alle Rechte vorbehalten.",
     "footer.crafted": "Mit Sorgfalt erstellt",
+
+    // Imprint
+    "imprint.title": "Impressum",
+    "imprint.tmg": "Angaben gemäß § 5 TMG",
+    "imprint.name": "Julian Böckmann",
+    "imprint.address": "Zum Ausspann 2a, 22419 Hamburg, Deutschland",
+    "imprint.contact.label": "Kontaktinfo",
+    "imprint.contact.email": "E-Mail:",
+    "imprint.contact.email.value": "moin@julianboeckmann.de",
+    "imprint.vat.label": "Umsatzsteuer-Identifikationsnummer",
+    "imprint.vat.text": "Freistellung von der Umsatzsteuer gemäß § 19 der deutschen Umsatzsteuerordnung (Kleinunternehmerregelung / Kleinunternehmerregelung).",
+    "imprint.dispute.label": "Streitbeilegung",
+    "imprint.dispute.text": "Wir sind weder verpflichtet noch bereit, an Streitbeilegungsverfahren vor einem Verbraucherschlichtungsgericht teilzunehmen.",
+    "imprint.lastUpdated": "Zuletzt aktualisiert: 23. Februar 2026",
+    "imprint.back": "Zurück zur Startseite",
   },
 };
 

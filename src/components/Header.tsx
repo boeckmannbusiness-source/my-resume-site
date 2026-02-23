@@ -13,6 +13,7 @@ const Header = () => {
     { label: t("nav.skills"), href: "#skills" },
     { label: t("nav.education"), href: "#education" },
     { label: t("nav.contact"), href: "#contact" },
+    { label: t("imprint.link"), href: "/imprint" },
   ];
 
   return (

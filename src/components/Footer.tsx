@@ -11,9 +11,17 @@ const Footer = () => {
           <p className="text-sm text-muted-foreground">
             © {currentYear} Julian Böckmann. {t("footer.rights")}
           </p>
-          <p className="text-sm text-muted-foreground">
-            {t("footer.crafted")}
-          </p>
+          <div className="flex items-center gap-4">
+            <a
+              href="/imprint"
+              className="text-sm hover:text-foreground transition-colors"
+            >
+              {t("imprint.link")}
+            </a>
+            <p className="text-sm text-muted-foreground">
+              {t("footer.crafted")}
+            </p>
+          </div>
         </div>
       </div>
     </footer>
