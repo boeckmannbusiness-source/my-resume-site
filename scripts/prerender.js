@@ -4,12 +4,15 @@ import path from 'path';
 import { fileURLToPath } from 'url';
 import http from 'http';
 import puppeteer from 'puppeteer';
+import chromium from '@sparticuz/chromium';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 const BUILD_DIR = path.join(__dirname, '../dist');
 const ROUTES = ['/', '/imprint'];
+
+const isVercel = process.env.VERCEL === '1';
 
 async function waitForServer(port) {
   return new Promise((resolve, reject) => {
@@ -87,10 +90,20 @@ async function prerender() {
 
     console.log('📄 Pre-rendering pages...');
     
-    const browser = await puppeteer.launch({
-      headless: true,
-      args: ['--no-sandbox', '--disable-setuid-sandbox']
-    });
+    let browser;
+    if (isVercel) {
+      browser = await puppeteer.launch({
+        args: chromium.args,
+        defaultViewport: chromium.defaultViewport,
+        executablePath: await chromium.executablePath(),
+        headless: chromium.headless,
+      });
+    } else {
+      browser = await puppeteer.launch({
+        headless: true,
+        args: ['--no-sandbox', '--disable-setuid-sandbox']
+      });
+    }
 
     try {
       for (const route of ROUTES) {
