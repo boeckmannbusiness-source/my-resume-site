@@ -90,7 +90,7 @@ const translations = {
     // Footer
     "footer.rights": "All rights reserved.",
     "footer.crafted": "Crafted with care",
-    "imprint.link": "Impressum",
+    "imprint.link": "Imprint",
 
     // Imprint
     "imprint.title": "Legal Notice (Impressum)",
