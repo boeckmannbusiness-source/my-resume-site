@@ -8,7 +8,8 @@
     "build": "vite build",
     "build:dev": "vite build --mode development",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "prerender": "node scripts/prerender.js"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.10.0",
@@ -76,6 +77,8 @@
     "lovable-tagger": "^1.1.11",
     "png-to-ico": "^3.0.1",
     "postcss": "^8.5.6",
+    "prerender": "^5.21.6",
+    "puppeteer": "^24.37.5",
     "sharp": "^0.34.5",
     "tailwindcss": "^3.4.17",
     "typescript": "^5.8.3",

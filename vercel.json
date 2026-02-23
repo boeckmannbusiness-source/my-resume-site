@@ -1,10 +1,19 @@
 {
-  "buildCommand": "npm run build",
+  "buildCommand": "npm run prerender",
   "outputDirectory": "dist",
-  "rewrites": [
+  "headers": [
     {
-      "source": "/imprint",
-      "destination": "/index.html"
+      "source": "/(.*)",
+      "headers": [
+        {
+          "key": "X-Content-Type-Options",
+          "value": "nosniff"
+        },
+        {
+          "key": "X-Frame-Options",
+          "value": "DENY"
+        }
+      ]
     }
   ]
 }
