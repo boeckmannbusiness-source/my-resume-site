@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import { useLanguage } from "@/contexts/LanguageContext";
 
 const Footer = () => {
@@ -11,9 +12,15 @@ const Footer = () => {
           <p className="text-sm text-muted-foreground">
             © {currentYear} Julian Böckmann. {t("footer.rights")}
           </p>
-          <p className="text-sm text-muted-foreground">
-            {t("footer.crafted")}
-          </p>
+          <div className="flex items-center gap-6">
+            <Link
+              to="/impressum"
+              className="text-sm text-muted-foreground hover:text-foreground transition-colors link-underline"
+            >
+              {t("footer.impressum")}
+            </Link>
+            <p className="text-sm text-muted-foreground">{t("footer.crafted")}</p>
+          </div>
         </div>
       </div>
     </footer>

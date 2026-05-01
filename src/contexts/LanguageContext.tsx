@@ -90,6 +90,11 @@ const translations = {
     // Footer
     "footer.rights": "All rights reserved.",
     "footer.crafted": "Crafted with care",
+    "footer.impressum": "Imprint",
+
+    // Impressum
+    "impressum.title": "Imprint",
+    "impressum.back": "Back to Home",
   },
   de: {
     // Nav
@@ -172,6 +177,11 @@ const translations = {
     // Footer
     "footer.rights": "Alle Rechte vorbehalten.",
     "footer.crafted": "Mit Sorgfalt erstellt",
+    "footer.impressum": "Impressum",
+
+    // Impressum
+    "impressum.title": "Impressum",
+    "impressum.back": "Zurück zur Startseite",
   },
 };
 
