@@ -204,7 +204,13 @@ export const LanguageProvider = ({ children }: { children: ReactNode }) => {
 export const useLanguage = () => {
   const context = useContext(LanguageContext);
   if (!context) {
-    throw new Error("useLanguage must be used within a LanguageProvider");
+    // Fallback prevents crashes during Fast Refresh when the provider
+    // module is hot-reloaded before consumers re-mount.
+    return {
+      language: "en" as Language,
+      setLanguage: () => {},
+      t: (key: string) => key,
+    };
   }
   return context;
 };
