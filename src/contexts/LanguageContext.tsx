@@ -96,6 +96,56 @@ const translations = {
     // Impressum
     "impressum.title": "Imprint",
     "impressum.back": "Back to Home",
+
+    // Services
+    "services.label": "Freelance",
+    "services.title": "Work With Me",
+    "services.intro": "Independent performance marketing expertise — from hands-on campaign management to fractional leadership and pro-bono support for non-profits.",
+    "services.explore": "Explore all services",
+    "services.page.title": "Freelance Services",
+    "services.page.intro": "14+ years of growth marketing across e-commerce, travel, and gaming. I work with founders, marketing leads, and agencies who want measurable results and an honest second pair of eyes.",
+    "services.cta.text": "Curious if we'd be a good fit? Let's talk.",
+    "services.cta.button": "Get in touch",
+
+    "services.ads.title": "Google Ads Management",
+    "services.ads.short": "Hands-on campaign management for SMEs and e-commerce brands in DACH.",
+    "services.ads.long": "End-to-end management of Search, Shopping, PMax, and YouTube campaigns. I run accounts the way I'd run my own — tight feedback loops, clean tracking, and ROAS-focused budget allocation.",
+    "services.ads.b1": "Search, Shopping & Performance Max",
+    "services.ads.b2": "Feed optimization & PLA strategy",
+    "services.ads.b3": "Conversion tracking & GTM setup",
+    "services.ads.b4": "Monthly reporting & optimization",
+
+    "services.audit.title": "Performance Audits",
+    "services.audit.short": "Deep-dive audits of accounts, tracking, and agency work.",
+    "services.audit.long": "A thorough review of your paid media setup: account structure, bidding, creatives, tracking, attribution, and reporting. You get a prioritized action plan — no fluff.",
+    "services.audit.b1": "Account & campaign structure review",
+    "services.audit.b2": "Tracking & data quality check",
+    "services.audit.b3": "Wasted-spend & quick-win analysis",
+    "services.audit.b4": "Prioritized roadmap with impact estimates",
+
+    "services.challenger.title": "Agency Challenger",
+    "services.challenger.short": "Independent second opinion on your current agency setup.",
+    "services.challenger.long": "Working with an agency and unsure if you're getting value? I provide an unbiased review of strategy, execution, and reporting — so you can hold partners accountable or make a confident change.",
+    "services.challenger.b1": "Agency performance benchmark",
+    "services.challenger.b2": "Contract & fee structure review",
+    "services.challenger.b3": "Reporting & KPI sanity check",
+    "services.challenger.b4": "Stay, switch, or in-house recommendation",
+
+    "services.fractional.title": "Fractional Head of Performance",
+    "services.fractional.short": "Part-time strategic leadership for scaling companies.",
+    "services.fractional.long": "Senior performance marketing leadership without a full-time hire. I plug into your team, set strategy, manage budgets, hire & coach specialists, and drive growth — typically 1–2 days per week.",
+    "services.fractional.b1": "Channel strategy & budget planning",
+    "services.fractional.b2": "Team hiring, coaching & enablement",
+    "services.fractional.b3": "Agency & vendor management",
+    "services.fractional.b4": "Board & leadership reporting",
+
+    "services.ngo.title": "Google Ad Grants for NGOs",
+    "services.ngo.short": "Pro-bono and discounted support to help non-profits get the most out of their Ad Grant.",
+    "services.ngo.long": "Non-profits qualify for up to $10,000/month in free Google Ads. I help NGOs set up, activate, and optimize their Ad Grant accounts to reach more donors, volunteers, and beneficiaries.",
+    "services.ngo.b1": "Ad Grant application & activation",
+    "services.ngo.b2": "Compliance & policy management",
+    "services.ngo.b3": "Campaign setup & conversion tracking",
+    "services.ngo.b4": "Ongoing optimization at reduced rates",
   },
   de: {
     // Nav
