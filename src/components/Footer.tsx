@@ -14,6 +14,12 @@ const Footer = () => {
           </p>
           <div className="flex items-center gap-6">
             <Link
+              to="/services"
+              className="text-sm text-muted-foreground hover:text-foreground transition-colors link-underline"
+            >
+              {t("nav.services")}
+            </Link>
+            <Link
               to="/impressum"
               className="text-sm text-muted-foreground hover:text-foreground transition-colors link-underline"
             >

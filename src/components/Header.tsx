@@ -8,11 +8,12 @@ const Header = () => {
   const { t } = useLanguage();
 
   const navItems = [
-    { label: t("nav.about"), href: "#about" },
-    { label: t("nav.experience"), href: "#experience" },
-    { label: t("nav.skills"), href: "#skills" },
-    { label: t("nav.education"), href: "#education" },
-    { label: t("nav.contact"), href: "#contact" },
+    { label: t("nav.about"), href: "/#about" },
+    { label: t("nav.experience"), href: "/#experience" },
+    { label: t("nav.skills"), href: "/#skills" },
+    { label: t("nav.services"), href: "/#services" },
+    { label: t("nav.education"), href: "/#education" },
+    { label: t("nav.contact"), href: "/#contact" },
   ];
 
   return (
