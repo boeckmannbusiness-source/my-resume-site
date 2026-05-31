@@ -14,6 +14,7 @@ const translations = {
     "nav.about": "About",
     "nav.experience": "Experience",
     "nav.skills": "Skills",
+    "nav.services": "Services",
     "nav.education": "Education",
     "nav.contact": "Contact",
     
@@ -101,6 +102,7 @@ const translations = {
     "nav.about": "Über mich",
     "nav.experience": "Erfahrung",
     "nav.skills": "Fähigkeiten",
+    "nav.services": "Leistungen",
     "nav.education": "Ausbildung",
     "nav.contact": "Kontakt",
     
