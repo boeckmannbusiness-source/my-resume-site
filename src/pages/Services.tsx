@@ -3,6 +3,7 @@ import { ArrowLeft, ArrowRight, Target, Search, Shield, Briefcase, Heart } from 
 import { useLanguage } from "@/contexts/LanguageContext";
 import LanguageToggle from "@/components/LanguageToggle";
 import Footer from "@/components/Footer";
+import InquiryForm from "@/components/InquiryForm";
 
 const ServicesPage = () => {
   const { t } = useLanguage();
@@ -115,6 +116,8 @@ const ServicesPage = () => {
             </article>
           ))}
         </div>
+
+        <InquiryForm />
 
         <div className="mt-16 text-center">
           <p className="text-lg text-muted-foreground mb-6">{t("services.cta.text")}</p>
