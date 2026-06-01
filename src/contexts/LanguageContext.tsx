@@ -146,6 +146,23 @@ const translations = {
     "services.ngo.b2": "Compliance & policy management",
     "services.ngo.b3": "Campaign setup & conversion tracking",
     "services.ngo.b4": "Ongoing optimization at reduced rates",
+
+    // Services inquiry form
+    "services.inquiry.label": "Inquiry",
+    "services.inquiry.title": "Start a Conversation",
+    "services.inquiry.intro": "Tell me a bit about your project and I'll get back to you within a few working days.",
+    "services.inquiry.name": "Name",
+    "services.inquiry.name.placeholder": "Your name",
+    "services.inquiry.email": "Email",
+    "services.inquiry.email.placeholder": "you@company.com",
+    "services.inquiry.budget": "Budget (optional)",
+    "services.inquiry.budget.placeholder": "e.g. €5k/month, project-based, flexible",
+    "services.inquiry.message": "Message",
+    "services.inquiry.message.placeholder": "What are you working on and what would you like help with?",
+    "services.inquiry.submit": "Send inquiry",
+    "services.inquiry.success": "Thanks — your inquiry is on its way. I'll get back to you soon.",
+    "services.inquiry.error.invalid": "Please check your entries and try again.",
+    "services.inquiry.error.generic": "Something went wrong. Please try again or email me directly.",
   },
   de: {
     // Nav
