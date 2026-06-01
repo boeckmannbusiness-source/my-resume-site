@@ -301,6 +301,23 @@ const translations = {
     "services.ngo.b2": "Compliance- & Policy-Management",
     "services.ngo.b3": "Kampagnen-Setup & Conversion-Tracking",
     "services.ngo.b4": "Laufende Optimierung zu reduzierten Konditionen",
+
+    // Services inquiry form
+    "services.inquiry.label": "Anfrage",
+    "services.inquiry.title": "Lass uns sprechen",
+    "services.inquiry.intro": "Erzähl mir kurz von deinem Projekt — ich melde mich innerhalb weniger Werktage.",
+    "services.inquiry.name": "Name",
+    "services.inquiry.name.placeholder": "Dein Name",
+    "services.inquiry.email": "E-Mail",
+    "services.inquiry.email.placeholder": "du@unternehmen.de",
+    "services.inquiry.budget": "Budget (optional)",
+    "services.inquiry.budget.placeholder": "z. B. 5.000 €/Monat, projektbasiert, flexibel",
+    "services.inquiry.message": "Nachricht",
+    "services.inquiry.message.placeholder": "Woran arbeitest du und wobei kann ich unterstützen?",
+    "services.inquiry.submit": "Anfrage senden",
+    "services.inquiry.success": "Danke — deine Anfrage ist unterwegs. Ich melde mich bald.",
+    "services.inquiry.error.invalid": "Bitte überprüfe deine Eingaben und versuche es erneut.",
+    "services.inquiry.error.generic": "Etwas ist schiefgelaufen. Bitte erneut versuchen oder direkt per E-Mail melden.",
   },
 };
 
