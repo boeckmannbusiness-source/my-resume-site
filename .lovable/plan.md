@@ -1,54 +1,31 @@
-# Freelance Services — Section + Page
+## Add inquiry form to Services page
 
-Showcase Julian's freelance offering with a teaser on the homepage and a dedicated page for details. Fully bilingual (EN/DE), matching the existing minimal-clean aesthetic.
+A new contact form at the bottom of `/services` that emails inquiries to you. Fully bilingual (EN/DE).
 
-## What gets built
+### Form fields
+- Name (required)
+- Email (required, validated)
+- Budget (free-text input, optional)
+- Message (required, max 1000 chars)
+- Submit button + success/error toast feedback
 
-### 1. Homepage teaser section (`src/components/Services.tsx`)
-- Placed between **Skills** and **Education**
-- Section label "Freelance" + headline + short intro
-- Compact grid of the 5 service cards (icon, title, 1-line description)
-- "Explore all services →" link to `/services`
-- Anchor: `#services` — added to header nav
+### How it works
+1. User fills out form on `/services`
+2. On submit, a serverless function sends an email to your inbox with the inquiry details
+3. User sees a success confirmation; form resets
 
-### 2. Dedicated page (`src/pages/Services.tsx`)
-- Route `/services` (added in `App.tsx`)
-- Header + Footer reused
-- Hero block with headline & intro
-- 5 detailed service cards, each with:
-  1. **Google Ads Management** — hands-on campaign management for SMEs/e-commerce
-  2. **Performance Audits** — deep-dive account & tracking audits
-  3. **Agency Challenger / Second Opinion** — independent review of current agency setup
-  4. **Fractional Head of Performance** — part-time strategic leadership
-  5. **Google Ad Grants for NGOs** — pro-bono / discounted support for non-profits
-- Each card: icon, title, longer description, bullet list of deliverables
-- "Back to Home" link + CTA buttons anchoring to `/#contact` (reuses existing email/LinkedIn/Xing contact)
+### Setup steps
+1. Enable Lovable Cloud (required for sending email).
+2. Set up your sender email domain (one-click dialog — your emails will arrive from your own domain instead of a generic address).
+3. Create the inquiry email template (subject: "New performance marketing inquiry from {name}"; body lists name, email, budget, message).
+4. Create the `send-inquiry` edge function that validates input with Zod and sends the email to your address.
+5. Build the `InquiryForm` component using existing shadcn `Input`, `Textarea`, `Button`, and `Label` — styled to match the Services page.
+6. Mount the form in `src/pages/Services.tsx`, above the existing "Back to Home / Contact" CTAs.
+7. Add EN + DE translations under `services.inquiry.*` (heading, subhead, field labels, placeholders, submit text, success/error messages) in `LanguageContext.tsx`.
 
-### 3. Navigation
-- Add "Services" / "Leistungen" item to Header nav (desktop + mobile)
-- Footer gets a link to `/services`
+### Where inquiries land
+Emails are sent to a single recipient address baked into the edge function. After Cloud is enabled I'll ask which email address should receive the inquiries (defaults to the address in your existing Contact section if visible).
 
-### 4. Translations
-- Extend `LanguageContext.tsx` with all new strings under `services.*` keys (EN + DE)
-- Includes nav label, section copy, 5 service titles, descriptions, bullets, CTAs
-
-## Technical notes
-
-- Icons via `lucide-react` (e.g., `Target`, `Search`, `Shield`, `Briefcase`, `Heart`)
-- Cards use existing `Card` component + semantic tokens (`bg-card`, `text-foreground`, `border-border`, `text-accent`)
-- No new dependencies, no backend (CTA reuses existing Contact section)
-- Page uses same `min-h-screen bg-background` shell as `Impressum.tsx`
-- Smooth scroll handled by existing anchor behavior; cross-page anchors use `/#contact`
-
-## Files
-
-Created:
-- `src/components/Services.tsx`
-- `src/pages/Services.tsx`
-
-Edited:
-- `src/App.tsx` (add `/services` route)
-- `src/pages/Index.tsx` (mount `<Services />`)
-- `src/components/Header.tsx` (nav item)
-- `src/components/Footer.tsx` (footer link)
-- `src/contexts/LanguageContext.tsx` (EN + DE strings)
+### Files
+- New: `src/components/InquiryForm.tsx`, `supabase/functions/send-inquiry/index.ts`, `supabase/functions/_shared/transactional-email-templates/inquiry-notification.tsx`
+- Edited: `src/pages/Services.tsx`, `src/contexts/LanguageContext.tsx`, `supabase/functions/_shared/transactional-email-templates/registry.ts`
