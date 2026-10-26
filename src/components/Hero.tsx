@@ -1,6 +1,6 @@
 import { ArrowDown } from "lucide-react";
 import { useLanguage } from "@/contexts/LanguageContext";
-import profileImage from "@/assets/julian-profile.png";
+import profileImage from "@/assets/julian-profile.jpg";
 
 const Hero = () => {
   const { t } = useLanguage();
