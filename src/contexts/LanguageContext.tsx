@@ -12,6 +12,7 @@ const translations = {
   en: {
     // Nav
     "nav.about": "About",
+    "nav.projects": "Projects",
     "nav.experience": "Experience",
     "nav.skills": "Skills",
     "nav.education": "Education",
@@ -54,6 +55,22 @@ const translations = {
     "experience.innogames.desc": "Launched marketing for a new free-to-play game, coordinating CRM, SEO, performance, and TV/social campaigns.",
     "experience.casamundo.desc": "Planned and managed international SEA campaigns, implementing tracking and tag management with Google Tag Manager. Ran display and retargeting campaigns.",
     
+    // Projects
+    "projects.label": "Portfolio",
+    "projects.title": "Featured Projects",
+    "projects.intro": "Explore recent side projects, AI tools, and e-commerce platforms I've built.",
+    "projects.42feeds.title": "42feeds",
+    "projects.42feeds.desc": "AI generated Product feed management tool",
+    "projects.42crawl.title": "42crawl",
+    "projects.42crawl.desc": "AI generated SEO website crawling tool",
+    "projects.goalrush.title": "Goal Rush",
+    "projects.goalrush.desc": "Hyper casual idle soccer app",
+    "projects.goalrush.badge": "Soon as Android App available",
+    "projects.quatschkind.title": "Quatschkind",
+    "projects.quatschkind.desc": "AI generated online shop for toys (completely for free with open source tools)",
+    "projects.more.title": "More to Come",
+    "projects.more.desc": "More exciting projects are currently in development. Stay tuned!",
+
     // Skills
     "skills.label": "Expertise",
     "skills.title": "Skills & Competencies",
@@ -110,6 +127,7 @@ const translations = {
   de: {
     // Nav
     "nav.about": "Über mich",
+    "nav.projects": "Projekte",
     "nav.experience": "Erfahrung",
     "nav.skills": "Fähigkeiten",
     "nav.education": "Ausbildung",
@@ -152,6 +170,22 @@ const translations = {
     "experience.innogames.desc": "Marketing-Launch für ein neues Free-to-Play-Spiel, Koordination von CRM, SEO, Performance und TV/Social-Kampagnen.",
     "experience.casamundo.desc": "Planung und Verwaltung internationaler SEA-Kampagnen, Implementierung von Tracking und Tag Management mit Google Tag Manager.",
     
+    // Projects
+    "projects.label": "Portfolio",
+    "projects.title": "Ausgewählte Projekte",
+    "projects.intro": "Entdecken Sie aktuelle Nebenprojekte, KI-Tools und E-Commerce-Plattformen, die ich entwickelt habe.",
+    "projects.42feeds.title": "42feeds",
+    "projects.42feeds.desc": "KI-generiertes Product-Feed-Management-Tool",
+    "projects.42crawl.title": "42crawl",
+    "projects.42crawl.desc": "KI-generiertes SEO-Website-Crawling-Tool",
+    "projects.goalrush.title": "Goal Rush",
+    "projects.goalrush.desc": "Hyper-Casual Idle-Fußball-App",
+    "projects.goalrush.badge": "Demnächst als Android App verfügbar",
+    "projects.quatschkind.title": "Quatschkind",
+    "projects.quatschkind.desc": "KI-generierter Online-Shop für Spielzeug (vollständig kostenlos mit Open-Source-Tools)",
+    "projects.more.title": "Mehr in Kürze",
+    "projects.more.desc": "Weitere spannende Projekte sind derzeit in Entwicklung. Seien Sie gespannt!",
+
     // Skills
     "skills.label": "Expertise",
     "skills.title": "Fähigkeiten & Kompetenzen",
