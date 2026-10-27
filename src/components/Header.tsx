@@ -10,6 +10,7 @@ const Header = () => {
   const navItems = [
     { label: t("nav.about"), href: "/#about" },
     { label: t("nav.experience"), href: "/#experience" },
+    { label: t("nav.projects"), href: "/#projects" },
     { label: t("nav.skills"), href: "/#skills" },
     { label: t("nav.services"), href: "/#services" },
     { label: t("nav.education"), href: "/#education" },
