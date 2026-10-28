@@ -17,7 +17,6 @@ const Header = () => {
     { label: t("nav.contact"), href: "/#contact" },
     { label: t("imprint.link"), href: "/imprint" },
   ];
-  ];
 
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-md border-b border-border/50">
