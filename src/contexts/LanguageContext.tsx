@@ -203,6 +203,13 @@ const translations = {
     "projects.quatschkind.desc": "KI-generierter Online-Shop für Spielzeug (vollständig kostenlos mit Open-Source-Tools)",
     "projects.more.title": "Mehr in Kürze",
     "projects.more.desc": "Weitere spannende Projekte sind derzeit in Entwicklung. Seien Sie gespannt!",
+    "projects.googlead.title": "Google Ad Grants",
+    "projects.googlead.desc": "Managed Google Ad Grants account for non-profit organization, achieving 150% ROI on ad spend and driving qualified volunteer applications.",
+    "projects.agency.title": "Agency Challenging",
+    "projects.agency.desc": "Founded and grew a digital marketing agency from startup to 7-figure revenue, serving 20+ B2B clients across DACH region.",
+    "projects.interim.title": "Interim Head of Performance Marketing",
+    "projects.interim.desc": "Served as Interim Head of Performance Marketing, optimizing marketing spend by 40% and leading a team of 15 specialists during transition period.",
+    "nav.skills": "Skills"
 
     // Skills
     "skills.label": "Expertise",

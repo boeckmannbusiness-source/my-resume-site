@@ -1,4 +1,4 @@
-import { ExternalLink, Rss, Search, Gamepad2, ShoppingBag, Sparkles } from "lucide-react";
+import { ExternalLink, Rss, Search, Gamepad2, ShoppingBag, Sparkles, UserGroup } from "lucide-react";
 import { useLanguage } from "@/contexts/LanguageContext";
 
 const Projects = () => {
@@ -33,6 +33,27 @@ const Projects = () => {
       url: "https://www.quatschkind.de",
       icon: ShoppingBag,
       tag: "AI & Open Source",
+    },
+    {
+      titleKey: "projects.googlead.title",
+      descKey: "projects.googlead.desc",
+      url: "https://developers.google.com/ads",
+      icon: Sparkles,
+      tag: "Google Ad Grants",
+    },
+    {
+      titleKey: "projects.agency.title",
+      descKey: "projects.agency.desc",
+      url: "https://agency-challenging.example.com",
+      icon: ShoppingBag,
+      tag: "Agency Challenging",
+    },
+    {
+      titleKey: "projects.interim.title",
+      descKey: "projects.interim.desc",
+      url: "https://interim-head.example.com",
+      icon: UserGroup,
+      tag: "Interim Head of Performance Marketing",
     },
   ];
 
