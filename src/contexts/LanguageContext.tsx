@@ -209,6 +209,12 @@ const translations = {
     "projects.agency.desc": "Founded and grew a digital marketing agency from startup to 7-figure revenue, serving 20+ B2B clients across DACH region.",
     "projects.interim.title": "Interim Head of Performance Marketing",
     "projects.interim.desc": "Served as Interim Head of Performance Marketing, optimizing marketing spend by 40% and leading a team of 15 specialists during transition period.",
+    "projects.googlead.title": "Google Anzeigen",
+    "projects.googlead.desc": "Verwaltete Google Ad Grants Konto für eine Non-Profit-Organisation, erreichte 150% ROI bei Werbeausgaben und steigerte qualifizierte Freiwilligenbewerbungen.",
+    "projects.agency.title": "Agency Challenging",
+    "projects.agency.desc": "Gegründet und gewachsen eine digitale Marketing-Agentur von Start-up zu 7-stelligen Umsatz, betreute 20+ B2B-Kunden im DACH-Raum.",
+    "projects.interim.title": "Interim Head of Performance Marketing",
+    "projects.interim.desc": "Als Interim Head of Performance Marketing tätig, Marketingausgaben um 40% optimiert und ein Team von 15 Spezialisten während der Übergangsphase geführt.",
     "nav.skills": "Skills"
 
     // Skills
