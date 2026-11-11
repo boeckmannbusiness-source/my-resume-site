@@ -1,4 +1,4 @@
-import { ExternalLink, Rss, Search, Gamepad2, ShoppingBag, Sparkles, UserGroup } from "lucide-react";
+import { ExternalLink, Rss, Search, Gamepad2, ShoppingBag, Sparkles, Users } from "lucide-react";
 import { useLanguage } from "@/contexts/LanguageContext";
 
 const Projects = () => {
@@ -52,7 +52,7 @@ const Projects = () => {
       titleKey: "projects.interim.title",
       descKey: "projects.interim.desc",
       url: "https://interim-head.example.com",
-      icon: UserGroup,
+      icon: Users,
       tag: "Interim Head of Performance Marketing",
     },
   ];

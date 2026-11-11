@@ -15,6 +15,7 @@ const translations = {
     "nav.projects": "Projects",
     "nav.experience": "Experience",
     "nav.skills": "Skills",
+    "nav.services": "Services",
     "nav.education": "Education",
     "nav.contact": "Contact",
     
@@ -43,9 +44,20 @@ const translations = {
     "about.cta": "Let's connect",
     
     // Services
-    "services.label": "Services",
-    "services.title": "What I Offer",
-    "services.description": "Comprehensive performance marketing and growth services tailored for B2B and B2C companies",
+    "services.label": "Freelance",
+    "services.title": "Work With Me",
+    "services.intro": "Independent performance marketing expertise — from hands-on campaign management to fractional leadership and pro-bono support for non-profits.",
+    "services.cta": "Get in touch",
+    "services.ads.title": "Google Ads Management",
+    "services.ads.short": "Hands-on campaign management for SMEs and e-commerce brands in DACH.",
+    "services.audit.title": "Performance Audits",
+    "services.audit.short": "Deep-dive audits of accounts, tracking, and agency work.",
+    "services.challenger.title": "Agency Challenger",
+    "services.challenger.short": "Independent second opinion on your current agency setup.",
+    "services.fractional.title": "Fractional Head of Performance",
+    "services.fractional.short": "Part-time strategic leadership for scaling companies.",
+    "services.ngo.title": "Google Ad Grants for NGOs",
+    "services.ngo.short": "Pro-bono and discounted support to help non-profits get the most out of their Ad Grant.",
     "services.akku": "Google Ads, PLA & Retargeting",
     "services.akku.desc": "Orchestrating end-to-end performance marketing strategy, boosting multi-channel growth for B2C/B2B e-commerce platforms in DACH. Increased qualified leads by 32% within 6 months. Managing €1M+ marketing budget and leading a team of 5 specialists.",
     "services.visable": "SEO, Display & Social Ads",
@@ -88,6 +100,12 @@ const translations = {
     "projects.quatschkind.desc": "AI generated online shop for toys (completely for free with open source tools)",
     "projects.more.title": "More to Come",
     "projects.more.desc": "More exciting projects are currently in development. Stay tuned!",
+    "projects.googlead.title": "Google Ad Grants",
+    "projects.googlead.desc": "Managed Google Ad Grants account for non-profit organization, achieving 150% ROI on ad spend and driving qualified volunteer applications.",
+    "projects.agency.title": "Agency Challenging",
+    "projects.agency.desc": "Founded and grew a digital marketing agency from startup to 7-figure revenue, serving 20+ B2B clients across DACH region.",
+    "projects.interim.title": "Interim Head of Performance Marketing",
+    "projects.interim.desc": "Served as Interim Head of Performance Marketing, optimizing marketing spend by 40% and leading a team of 15 specialists during transition period.",
 
     // Skills
     "skills.label": "Expertise",
@@ -148,6 +166,7 @@ const translations = {
     "nav.projects": "Projekte",
     "nav.experience": "Erfahrung",
     "nav.skills": "Fähigkeiten",
+    "nav.services": "Leistungen",
     "nav.education": "Ausbildung",
     "nav.contact": "Kontakt",
     
@@ -174,6 +193,22 @@ const translations = {
     "about.competency.personality": "Persönlichkeitsprofil",
     "about.competency.personality.desc": "Abenteurer (ISFP-A) — Mein 16 Personalities Profil ansehen →",
     "about.cta": "Kontakt aufnehmen",
+    
+    // Services
+    "services.label": "Freelance",
+    "services.title": "Zusammenarbeit",
+    "services.intro": "Unabhängige Performance-Marketing-Expertise — von operativem Kampagnen-Management bis hin zu fraktionaler Führung und Pro-Bono-Unterstützung für Non-Profits.",
+    "services.cta": "Kontakt aufnehmen",
+    "services.ads.title": "Google Ads Management",
+    "services.ads.short": "Operatives Kampagnen-Management für KMU und E-Commerce-Marken in DACH.",
+    "services.audit.title": "Performance Audits",
+    "services.audit.short": "Tiefgehende Audits von Accounts, Tracking und Agenturarbeit.",
+    "services.challenger.title": "Agentur-Challenger",
+    "services.challenger.short": "Unabhängige Zweitmeinung zu deinem aktuellen Agentur-Setup.",
+    "services.fractional.title": "Fractional Head of Performance",
+    "services.fractional.short": "Strategische Teilzeit-Führung für wachsende Unternehmen.",
+    "services.ngo.title": "Google Ad Grants für NGOs",
+    "services.ngo.short": "Pro-Bono und vergünstigte Unterstützung, damit Non-Profits ihren Ad Grant optimal nutzen.",
     
     // Experience
     "experience.label": "Karriere",
@@ -203,19 +238,12 @@ const translations = {
     "projects.quatschkind.desc": "KI-generierter Online-Shop für Spielzeug (vollständig kostenlos mit Open-Source-Tools)",
     "projects.more.title": "Mehr in Kürze",
     "projects.more.desc": "Weitere spannende Projekte sind derzeit in Entwicklung. Seien Sie gespannt!",
-    "projects.googlead.title": "Google Ad Grants",
-    "projects.googlead.desc": "Managed Google Ad Grants account for non-profit organization, achieving 150% ROI on ad spend and driving qualified volunteer applications.",
-    "projects.agency.title": "Agency Challenging",
-    "projects.agency.desc": "Founded and grew a digital marketing agency from startup to 7-figure revenue, serving 20+ B2B clients across DACH region.",
-    "projects.interim.title": "Interim Head of Performance Marketing",
-    "projects.interim.desc": "Served as Interim Head of Performance Marketing, optimizing marketing spend by 40% and leading a team of 15 specialists during transition period.",
     "projects.googlead.title": "Google Anzeigen",
     "projects.googlead.desc": "Verwaltete Google Ad Grants Konto für eine Non-Profit-Organisation, erreichte 150% ROI bei Werbeausgaben und steigerte qualifizierte Freiwilligenbewerbungen.",
     "projects.agency.title": "Agency Challenging",
     "projects.agency.desc": "Gegründet und gewachsen eine digitale Marketing-Agentur von Start-up zu 7-stelligen Umsatz, betreute 20+ B2B-Kunden im DACH-Raum.",
     "projects.interim.title": "Interim Head of Performance Marketing",
     "projects.interim.desc": "Als Interim Head of Performance Marketing tätig, Marketingausgaben um 40% optimiert und ein Team von 15 Spezialisten während der Übergangsphase geführt.",
-    "nav.skills": "Skills"
 
     // Skills
     "skills.label": "Expertise",
