@@ -15,5 +15,11 @@
         }
       ]
     }
+  ],
+  "rewrites": [
+    {
+      "source": "/games/refoma/data-privacy",
+      "destination": "/index.html"
+    }
   ]
 }
