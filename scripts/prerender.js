@@ -10,7 +10,7 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 const BUILD_DIR = path.join(__dirname, '../dist');
-const ROUTES = ['/', '/imprint'];
+const ROUTES = ['/', '/imprint', '/games/refoma/data-privacy'];
 
 const isVercel = process.env.VERCEL === '1';
 
