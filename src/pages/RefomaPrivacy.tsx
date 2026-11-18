@@ -88,7 +88,7 @@ const renderBlock = (block: PrivacyBlock, index: number) => {
 };
 
 const RefomaPrivacy = () => {
-  const [selectedLanguage, setSelectedLanguage] = useState<PrivacyLanguageCode>("de");
+  const [selectedLanguage, setSelectedLanguage] = useState<PrivacyLanguageCode>("en");
 
   const policy =
     privacyDocuments[selectedLanguage] ?? privacyDocuments[fallbackPrivacyLanguage]!;
@@ -133,9 +133,12 @@ const RefomaPrivacy = () => {
           {policy.updatedLabel}: {policy.updated}
         </p>
 
+        <p className="mt-8 mb-3 text-xs uppercase tracking-[0.18em] text-muted-foreground">
+          {language.languageLabel}
+        </p>
         <nav
           aria-label="Language / Sprache"
-          className="flex flex-wrap items-center gap-2 mt-8 pb-8 border-b border-border"
+          className="flex flex-wrap items-center gap-2 pb-8 border-b border-border"
         >
           {privacyLanguages.map((entry) => {
             const isActive = entry.code === selectedLanguage;
@@ -147,8 +150,9 @@ const RefomaPrivacy = () => {
                 type="button"
                 onClick={() => setSelectedLanguage(entry.code)}
                 aria-pressed={isActive}
+                lang={entry.code}
                 className={[
-                  "inline-flex items-center gap-2 px-3 py-1.5 text-sm font-medium rounded-full border transition-colors",
+                  "inline-flex items-center gap-2 px-4 py-2 text-sm font-medium rounded-full border transition-colors",
                   isActive
                     ? "border-foreground bg-foreground text-background"
                     : "border-border text-muted-foreground hover:text-foreground hover:bg-secondary",
