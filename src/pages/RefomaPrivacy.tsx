@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import { ArrowLeft } from "lucide-react";
 import Footer from "@/components/Footer";
 import {
+  defaultPrivacyLanguage,
   fallbackPrivacyLanguage,
   privacyDocuments,
   privacyLanguages,
@@ -88,7 +89,8 @@ const renderBlock = (block: PrivacyBlock, index: number) => {
 };
 
 const RefomaPrivacy = () => {
-  const [selectedLanguage, setSelectedLanguage] = useState<PrivacyLanguageCode>("en");
+  const [selectedLanguage, setSelectedLanguage] =
+    useState<PrivacyLanguageCode>(defaultPrivacyLanguage);
 
   const policy =
     privacyDocuments[selectedLanguage] ?? privacyDocuments[fallbackPrivacyLanguage]!;

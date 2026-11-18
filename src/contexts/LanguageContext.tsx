@@ -147,7 +147,7 @@ const translations = {
 
     // Imprint
     "imprint.title": "Legal Notice (Impressum)",
-    "imprint.tmg": "Information according to § 5 TMG",
+    "imprint.tmg": "Information according to § 5 DDG",
     "imprint.name": "Julian Böckmann",
     "imprint.address": "Zum Ausspann 2a, 22419 Hamburg, Germany",
     "imprint.contact.label": "Contact Info",
@@ -157,7 +157,7 @@ const translations = {
     "imprint.vat.text": "Exempt from VAT according to Section 19 of the German Value Added Tax Act (Kleinunternehmerregelung / small business regulation).",
     "imprint.dispute.label": "Dispute Resolution",
     "imprint.dispute.text": "We are neither obligated nor willing to participate in dispute resolution proceedings before a consumer arbitration board.",
-    "imprint.lastUpdated": "Last Updated: February 23, 2026",
+    "imprint.lastUpdated": "Last Updated: November 18, 2026",
     "imprint.back": "Back to Home",
   },
   de: {
@@ -285,7 +285,7 @@ const translations = {
 
     // Imprint
     "imprint.title": "Impressum",
-    "imprint.tmg": "Angaben gemäß § 5 TMG",
+    "imprint.tmg": "Angaben gemäß § 5 DDG",
     "imprint.name": "Julian Böckmann",
     "imprint.address": "Zum Ausspann 2a, 22419 Hamburg, Deutschland",
     "imprint.contact.label": "Kontaktinfo",
@@ -295,7 +295,7 @@ const translations = {
     "imprint.vat.text": "Freistellung von der Umsatzsteuer gemäß § 19 der deutschen Umsatzsteuerordnung (Kleinunternehmerregelung / Kleinunternehmerregelung).",
     "imprint.dispute.label": "Streitbeilegung",
     "imprint.dispute.text": "Wir sind weder verpflichtet noch bereit, an Streitbeilegungsverfahren vor einem Verbraucherschlichtungsgericht teilzunehmen.",
-    "imprint.lastUpdated": "Zuletzt aktualisiert: 23. Februar 2026",
+    "imprint.lastUpdated": "Zuletzt aktualisiert: 18. November 2026",
     "imprint.back": "Zurück zur Startseite",
   },
 };

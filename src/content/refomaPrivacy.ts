@@ -179,7 +179,7 @@ const de: PrivacyDocument = {
         { type: "h3", text: "3.5 Lokale Nutzungsdiagnose" },
         {
           type: "p",
-          text: "Die App zählt lokal auf deinem Gerät App-Starts, Spielstarts, simulierte Spieltage, abgeschlossene Transfers sowie erstellte und geladene Spielstände, jeweils mit Zeitstempel. Diese Daten werden ausschließlich auf dem Gerät gespeichert und nicht übertragen. Du kannst die Erfassung in den Einstellungen deaktivieren und die gespeicherten Daten dort jederzeit zurücksetzen.",
+          text: "Die Erfassung ist standardmäßig aktiviert und lässt sich in den Einstellungen der App deaktivieren; die gespeicherten Daten können dort jederzeit zurückgesetzt werden. Die App zählt lokal auf deinem Gerät App-Starts, Spielstarts, simulierte Spieltage, abgeschlossene Transfers sowie erstellte und geladene Spielstände, jeweils mit Zeitstempel. Diese Daten werden ausschließlich auf dem Gerät gespeichert und nicht übertragen.",
         },
       ],
     },
@@ -235,6 +235,14 @@ const de: PrivacyDocument = {
         {
           type: "p",
           text: "Über „Support & Feedback“ öffnet die App ein externes Formular von Notion Labs, Inc. (USA) im Browser. Das Absenden ist freiwillig; übermittelt werden die von dir eingegebenen Angaben, optional der zuvor kopierte Diagnosebericht. Die App selbst überträgt dabei keine Daten; es gelten zusätzlich die Datenschutzbestimmungen von Notion.",
+        },
+        {
+          type: "p",
+          text: "Die Übermittlung erfolgt auf Grundlage deiner Einwilligung (Art. 6 Abs. 1 lit. a DSGVO). Du kannst sie jederzeit durch Nichtnutzung des Formulars widerrufen; die Rechtmäßigkeit der bis dahin erfolgten Übermittlung bleibt unberührt.",
+        },
+        {
+          type: "p",
+          text: "Eingesendete Nachrichten werden bei Notion gespeichert, bis die Anfrage bearbeitet ist, längstens 3 Monate, sofern keine gesetzlichen Aufbewahrungspflichten entgegenstehen, und danach gelöscht.",
         },
       ],
     },
@@ -481,7 +489,7 @@ const en: PrivacyDocument = {
         { type: "h3", text: "3.5 Local Usage Diagnostics" },
         {
           type: "p",
-          text: "The app locally counts app launches, game starts, simulated matchdays, completed transfers as well as created and loaded game saves on your device, each with a timestamp. This data is stored exclusively on the device and is not transmitted. You can disable the collection in the settings and reset the stored data there at any time.",
+          text: "Collection is enabled by default and can be disabled in the app settings; the stored data can be reset there at any time. The app locally counts app launches, game starts, simulated matchdays, completed transfers as well as created and loaded game saves on your device, each with a timestamp. This data is stored exclusively on the device and is not transmitted.",
         },
       ],
     },
@@ -537,6 +545,14 @@ const en: PrivacyDocument = {
         {
           type: "p",
           text: "Via “Support & Feedback”, the app opens an external form from Notion Labs, Inc. (USA) in your browser. Submitting is voluntary; the information you enter is transmitted, optionally including the previously copied diagnostic report. The app itself does not transmit any data; Notion's privacy policy applies in addition.",
+        },
+        {
+          type: "p",
+          text: "The transfer is based on your consent (Art. 6(1)(a) GDPR). You can withdraw it at any time by not using the form; the lawfulness of the transfer up to that point remains unaffected.",
+        },
+        {
+          type: "p",
+          text: "Submitted messages are stored in Notion until the request has been processed, for no longer than 3 months, unless statutory retention obligations require otherwise, and are deleted afterwards.",
         },
       ],
     },
@@ -773,7 +789,7 @@ const it: PrivacyDocument = {
         { type: "h3", text: "3.5 Diagnostica d'uso locale" },
         {
           type: "p",
-          text: "L'app conta localmente sul tuo dispositivo gli avvii dell'app, gli inizi di partita, le giornate di campionato simulate, i trasferimenti completati nonché i salvataggi creati e caricati, ciascuno con data e ora. Questi dati vengono memorizzati esclusivamente sul dispositivo e non vengono trasmessi. Puoi disattivare la raccolta nelle impostazioni e azzerare in qualsiasi momento i dati memorizzati.",
+          text: "La raccolta è attiva per impostazione predefinita e può essere disattivata nelle impostazioni dell'app; i dati memorizzati possono essere azzerati in qualsiasi momento. L'app conta localmente sul tuo dispositivo gli avvii dell'app, gli inizi di partita, le giornate di campionato simulate, i trasferimenti completati nonché i salvataggi creati e caricati, ciascuno con data e ora. Questi dati vengono memorizzati esclusivamente sul dispositivo e non vengono trasmessi.",
         },
       ],
     },
@@ -829,6 +845,14 @@ const it: PrivacyDocument = {
         {
           type: "p",
           text: "Tramite «Support & Feedback» l'app apre nel browser un modulo esterno di Notion Labs, Inc. (USA). L'invio è facoltativo; vengono trasmessi i dati che inserisci, eventualmente il rapporto diagnostico copiato in precedenza. L'app stessa non trasmette alcun dato; si applicano inoltre le informative sulla privacy di Notion.",
+        },
+        {
+          type: "p",
+          text: "La trasmissione avviene sulla base del tuo consenso (art. 6, par. 1, lett. a, GDPR). Puoi revocarlo in qualsiasi momento non utilizzando il modulo; la liceità della trasmissione effettuata fino a quel momento resta invariata.",
+        },
+        {
+          type: "p",
+          text: "I messaggi inviati vengono memorizzati presso Notion fino alla gestione della richiesta, per un massimo di 3 mesi, salvo obblighi di conservazione previsti dalla legge, e successivamente cancellati.",
         },
       ],
     },
@@ -1054,7 +1078,7 @@ const es: PrivacyDocument = {
         { type: "h3", text: "3.5 Diagnóstico de uso local" },
         {
           type: "p",
-          text: "La aplicación cuenta localmente en tu dispositivo los inicios de la aplicación, los inicios de partida, las jornadas de liga simuladas, los traspasos completados, así como las partidas creadas y cargadas, cada uno con su marca temporal. Estos datos se almacenan exclusivamente en el dispositivo y no se transmiten. Puedes desactivar el registro en la configuración y restablecer allí los datos almacenados en cualquier momento.",
+          text: "El registro está activado por defecto y puede desactivarse en los ajustes de la aplicación; los datos almacenados pueden restablecerse allí en cualquier momento. La aplicación cuenta localmente en tu dispositivo los inicios de la aplicación, los inicios de partida, las jornadas de liga simuladas, los traspasos completados, así como las partidas creadas y cargadas, cada uno con su marca temporal. Estos datos se almacenan exclusivamente en el dispositivo y no se transmiten.",
         },
       ],
     },
@@ -1110,6 +1134,14 @@ const es: PrivacyDocument = {
         {
           type: "p",
           text: "A través de «Support & Feedback», la aplicación abre en el navegador un formulario externo de Notion Labs, Inc. (EE. UU.). El envío es voluntario; se transmiten los datos que introduzcas y, opcionalmente, el informe de diagnóstico copiado previamente. La aplicación en sí no transmite ningún dato; además se aplican las políticas de privacidad de Notion.",
+        },
+        {
+          type: "p",
+          text: "La transmisión se basa en tu consentimiento (art. 6, apartado 1, letra a, RGPD). Puedes retirarlo en cualquier momento dejando de utilizar el formulario; la licitud de la transmisión realizada hasta ese momento no se verá afectada.",
+        },
+        {
+          type: "p",
+          text: "Los mensajes enviados se almacenan en Notion hasta que se tramite la solicitud, durante un máximo de 3 meses, salvo que existan obligaciones legales de conservación, y después se eliminan.",
         },
       ],
     },
@@ -1335,7 +1367,7 @@ const fr: PrivacyDocument = {
         { type: "h3", text: "3.5 Diagnostic d'utilisation local" },
         {
           type: "p",
-          text: "L'application compte localement sur votre appareil les lancements de l'application, les débuts de partie, les journées de championnat simulées, les transferts conclus ainsi que les sauvegardes créées et chargées, chacun avec un horodatage. Ces données sont stockées exclusivement sur l'appareil et ne sont pas transmises. Vous pouvez désactiver la collecte dans les paramètres et réinitialiser à tout moment les données enregistrées.",
+          text: "La collecte est activée par défaut et peut être désactivée dans les paramètres de l'application ; les données enregistrées peuvent y être réinitialisées à tout moment. L'application compte localement sur votre appareil les lancements de l'application, les débuts de partie, les journées de championnat simulées, les transferts conclus ainsi que les sauvegardes créées et chargées, chacun avec un horodatage. Ces données sont stockées exclusivement sur l'appareil et ne sont pas transmises.",
         },
       ],
     },
@@ -1391,6 +1423,14 @@ const fr: PrivacyDocument = {
         {
           type: "p",
           text: "Via « Support & Feedback », l'application ouvre dans le navigateur un formulaire externe de Notion Labs, Inc. (États-Unis). L'envoi est facultatif ; les informations que vous saisissez sont transmises, ainsi que, le cas échéant, le rapport de diagnostic copié auparavant. L'application elle-même ne transmet aucune donnée ; les politiques de confidentialité de Notion s'appliquent en complément.",
+        },
+        {
+          type: "p",
+          text: "La transmission repose sur votre consentement (art. 6, par. 1, point a, du RGPD). Vous pouvez le retirer à tout moment en n'utilisant pas le formulaire ; la licéité de la transmission effectuée jusqu'à ce moment reste inchangée.",
+        },
+        {
+          type: "p",
+          text: "Les messages envoyés sont conservés chez Notion jusqu'au traitement de la demande, pour une durée maximale de 3 mois, sauf obligation légale de conservation contraire, puis supprimés.",
         },
       ],
     },
@@ -1524,3 +1564,6 @@ export const privacyDocuments: Partial<Record<PrivacyLanguageCode, PrivacyDocume
 };
 
 export const fallbackPrivacyLanguage: PrivacyLanguageCode = "de";
+
+/** Language the privacy page opens with; the client-side switcher can change it. */
+export const defaultPrivacyLanguage: PrivacyLanguageCode = "de";
