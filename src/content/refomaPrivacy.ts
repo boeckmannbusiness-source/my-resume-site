@@ -43,7 +43,7 @@ export const privacyLanguages: PrivacyLanguage[] = [
 const de: PrivacyDocument = {
   title: "Datenschutzerklärung – REFOMA Pro",
   updatedLabel: "Stand",
-  updated: "12. November 2026",
+  updated: "18. November 2026",
   sections: [
     {
       number: "1",
@@ -342,7 +342,7 @@ const de: PrivacyDocument = {
 const en: PrivacyDocument = {
   title: "Privacy Policy – REFOMA Pro",
   updatedLabel: "Last updated",
-  updated: "November 12, 2026",
+  updated: "November 18, 2026",
   sections: [
     {
       number: "1",
@@ -644,7 +644,7 @@ const en: PrivacyDocument = {
 const it: PrivacyDocument = {
   title: "Informativa sulla privacy – REFOMA Pro",
   updatedLabel: "Ultimo aggiornamento",
-  updated: "12 novembre 2026",
+  updated: "18 novembre 2026",
   sections: [
     {
       number: "1",
@@ -925,7 +925,7 @@ const it: PrivacyDocument = {
 const es: PrivacyDocument = {
   title: "Política de privacidad – REFOMA Pro",
   updatedLabel: "Última actualización",
-  updated: "12 de noviembre de 2026",
+  updated: "18 de noviembre de 2026",
   sections: [
     {
       number: "1",
@@ -1206,7 +1206,7 @@ const es: PrivacyDocument = {
 const fr: PrivacyDocument = {
   title: "Politique de confidentialité – REFOMA Pro",
   updatedLabel: "Dernière mise à jour",
-  updated: "12 novembre 2026",
+  updated: "18 novembre 2026",
   sections: [
     {
       number: "1",
