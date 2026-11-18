@@ -198,7 +198,7 @@ const de: PrivacyDocument = {
         },
         {
           type: "p",
-          text: "Es werden keine Nutzungsprofile erstellt und keine Spiel- oder Nutzerdaten an Dritte weitergegeben.",
+          text: "Es werden keine Nutzungsprofile erstellt und keine Spiel- oder Nutzerdaten ohne deine Veranlassung an Dritte weitergegeben. Die freiwillige Nutzung des Feedback-Formulars ist in Abschnitt 5.1 beschrieben.",
         },
         { type: "h3", text: "5.1 Feedback-Formular (Notion)" },
         {
@@ -500,7 +500,7 @@ const en: PrivacyDocument = {
         },
         {
           type: "p",
-          text: "No user profiles are created, and no game or user data is shared with third parties.",
+          text: "No user profiles are created, and no game or user data is shared with third parties without your action. Voluntary use of the feedback form is described in section 5.1.",
         },
         { type: "h3", text: "5.1 Feedback Form (Notion)" },
         {
@@ -792,7 +792,7 @@ const it: PrivacyDocument = {
         },
         {
           type: "p",
-          text: "Non vengono creati profili utente e nessun dato di gioco o dato dell'utente viene condiviso con terze parti.",
+          text: "Non vengono creati profili utente e nessun dato di gioco o dato dell'utente viene condiviso con terze parti senza un tuo intervento. L'uso facoltativo del modulo di feedback è descritto nella sezione 5.1.",
         },
         { type: "h3", text: "5.1 Modulo di feedback (Notion)" },
         {
@@ -1073,7 +1073,7 @@ const es: PrivacyDocument = {
         },
         {
           type: "p",
-          text: "No se crean perfiles de usuario ni se comparten datos del juego o de los usuarios con terceros.",
+          text: "No se crean perfiles de usuario ni se comparten datos del juego o de los usuarios con terceros sin tu intervención. El uso voluntario del formulario de comentarios se describe en el apartado 5.1.",
         },
         { type: "h3", text: "5.1 Formulario de comentarios (Notion)" },
         {
@@ -1354,7 +1354,7 @@ const fr: PrivacyDocument = {
         },
         {
           type: "p",
-          text: "Aucun profil utilisateur n'est créé et aucune donnée de jeu ou donnée utilisateur n'est communiquée à des tiers.",
+          text: "Aucun profil utilisateur n'est créé et aucune donnée de jeu ou donnée utilisateur n'est communiquée à des tiers sans votre intervention. L'utilisation facultative du formulaire de feedback est décrite à la section 5.1.",
         },
         { type: "h3", text: "5.1 Formulaire de feedback (Notion)" },
         {
