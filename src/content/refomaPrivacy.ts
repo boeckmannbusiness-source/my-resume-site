@@ -43,7 +43,7 @@ export const privacyLanguages: PrivacyLanguage[] = [
 const de: PrivacyDocument = {
   title: "Datenschutzerklärung – REFOMA Pro",
   updatedLabel: "Stand",
-  updated: "12. November 2026",
+  updated: "18. November 2026",
   sections: [
     {
       number: "1",
@@ -145,6 +145,11 @@ const de: PrivacyDocument = {
           type: "p",
           text: "Diese Informationen werden ausschließlich lokal für die Darstellung verwendet und nicht an uns übertragen.",
         },
+        { type: "h3", text: "3.5 Lokale Nutzungsdiagnose" },
+        {
+          type: "p",
+          text: "Die App zählt lokal auf deinem Gerät App-Starts, Spielstarts, simulierte Spieltage, abgeschlossene Transfers sowie erstellte und geladene Spielstände, jeweils mit Zeitstempel. Diese Daten werden ausschließlich auf dem Gerät gespeichert und nicht übertragen. Du kannst die Erfassung in den Einstellungen deaktivieren und die gespeicherten Daten dort jederzeit zurücksetzen.",
+        },
       ],
     },
     {
@@ -193,7 +198,12 @@ const de: PrivacyDocument = {
         },
         {
           type: "p",
-          text: "Es werden keine Nutzungsprofile erstellt und keine Spiel- oder Nutzerdaten an Dritte weitergegeben.",
+          text: "Es werden keine Nutzungsprofile erstellt und keine Spiel- oder Nutzerdaten ohne deine Veranlassung an Dritte weitergegeben. Die freiwillige Nutzung des Feedback-Formulars ist in Abschnitt 5.1 beschrieben.",
+        },
+        { type: "h3", text: "5.1 Feedback-Formular (Notion)" },
+        {
+          type: "p",
+          text: "Über „Support & Feedback“ öffnet die App ein externes Formular von Notion Labs, Inc. (USA) im Browser. Das Absenden ist freiwillig; übermittelt werden die von dir eingegebenen Angaben, optional der zuvor kopierte Diagnosebericht. Die App selbst überträgt dabei keine Daten; es gelten zusätzlich die Datenschutzbestimmungen von Notion.",
         },
       ],
     },
@@ -213,6 +223,10 @@ const de: PrivacyDocument = {
         {
           type: "p",
           text: "Bei einer Deinstallation der App werden die zugehörigen lokalen App-Daten durch das Betriebssystem entfernt.",
+        },
+        {
+          type: "p",
+          text: "Diagnosedaten lassen sich in den Einstellungen zurücksetzen; die Ein/Aus-Entscheidung bleibt dabei als Einstellung erhalten.",
         },
         {
           type: "p",
@@ -328,7 +342,7 @@ const de: PrivacyDocument = {
 const en: PrivacyDocument = {
   title: "Privacy Policy – REFOMA Pro",
   updatedLabel: "Last updated",
-  updated: "November 12, 2026",
+  updated: "November 18, 2026",
   sections: [
     {
       number: "1",
@@ -433,6 +447,11 @@ const en: PrivacyDocument = {
           type: "p",
           text: "This information is used locally for display purposes only and is not transmitted to us.",
         },
+        { type: "h3", text: "3.5 Local Usage Diagnostics" },
+        {
+          type: "p",
+          text: "The app locally counts app launches, game starts, simulated matchdays, completed transfers as well as created and loaded game saves on your device, each with a timestamp. This data is stored exclusively on the device and is not transmitted. You can disable the collection in the settings and reset the stored data there at any time.",
+        },
       ],
     },
     {
@@ -481,7 +500,12 @@ const en: PrivacyDocument = {
         },
         {
           type: "p",
-          text: "No user profiles are created, and no game or user data is shared with third parties.",
+          text: "No user profiles are created, and no game or user data is shared with third parties without your action. Voluntary use of the feedback form is described in section 5.1.",
+        },
+        { type: "h3", text: "5.1 Feedback Form (Notion)" },
+        {
+          type: "p",
+          text: "Via “Support & Feedback”, the app opens an external form from Notion Labs, Inc. (USA) in your browser. Submitting is voluntary; the information you enter is transmitted, optionally including the previously copied diagnostic report. The app itself does not transmit any data; Notion's privacy policy applies in addition.",
         },
       ],
     },
@@ -501,6 +525,10 @@ const en: PrivacyDocument = {
         {
           type: "p",
           text: "When you uninstall the app, the associated local app data is removed by the operating system.",
+        },
+        {
+          type: "p",
+          text: "Diagnostic data can be reset in the settings; the on/off choice is retained as a setting.",
         },
         {
           type: "p",
@@ -616,7 +644,7 @@ const en: PrivacyDocument = {
 const it: PrivacyDocument = {
   title: "Informativa sulla privacy – REFOMA Pro",
   updatedLabel: "Ultimo aggiornamento",
-  updated: "12 novembre 2026",
+  updated: "18 novembre 2026",
   sections: [
     {
       number: "1",
@@ -711,6 +739,11 @@ const it: PrivacyDocument = {
           type: "p",
           text: "Queste informazioni vengono utilizzate esclusivamente localmente e non vengono trasmesse a noi.",
         },
+        { type: "h3", text: "3.5 Diagnostica d'uso locale" },
+        {
+          type: "p",
+          text: "L'app conta localmente sul tuo dispositivo gli avvii dell'app, gli inizi di partita, le giornate di campionato simulate, i trasferimenti completati nonché i salvataggi creati e caricati, ciascuno con data e ora. Questi dati vengono memorizzati esclusivamente sul dispositivo e non vengono trasmessi. Puoi disattivare la raccolta nelle impostazioni e azzerare in qualsiasi momento i dati memorizzati.",
+        },
       ],
     },
     {
@@ -759,7 +792,12 @@ const it: PrivacyDocument = {
         },
         {
           type: "p",
-          text: "Non vengono creati profili utente e nessun dato di gioco o dato dell'utente viene condiviso con terze parti.",
+          text: "Non vengono creati profili utente e nessun dato di gioco o dato dell'utente viene condiviso con terze parti senza un tuo intervento. L'uso facoltativo del modulo di feedback è descritto nella sezione 5.1.",
+        },
+        { type: "h3", text: "5.1 Modulo di feedback (Notion)" },
+        {
+          type: "p",
+          text: "Tramite «Support & Feedback» l'app apre nel browser un modulo esterno di Notion Labs, Inc. (USA). L'invio è facoltativo; vengono trasmessi i dati che inserisci, eventualmente il rapporto diagnostico copiato in precedenza. L'app stessa non trasmette alcun dato; si applicano inoltre le informative sulla privacy di Notion.",
         },
       ],
     },
@@ -779,6 +817,10 @@ const it: PrivacyDocument = {
         {
           type: "p",
           text: "Disinstallando l'app, i relativi dati locali vengono rimossi dal sistema operativo.",
+        },
+        {
+          type: "p",
+          text: "I dati diagnostici possono essere azzerati nelle impostazioni; la scelta attiva/disattivata resta salvata come impostazione.",
         },
         {
           type: "p",
@@ -883,7 +925,7 @@ const it: PrivacyDocument = {
 const es: PrivacyDocument = {
   title: "Política de privacidad – REFOMA Pro",
   updatedLabel: "Última actualización",
-  updated: "12 de noviembre de 2026",
+  updated: "18 de noviembre de 2026",
   sections: [
     {
       number: "1",
@@ -978,6 +1020,11 @@ const es: PrivacyDocument = {
           type: "p",
           text: "Esta información se utiliza únicamente de forma local y no se transmite a nosotros.",
         },
+        { type: "h3", text: "3.5 Diagnóstico de uso local" },
+        {
+          type: "p",
+          text: "La aplicación cuenta localmente en tu dispositivo los inicios de la aplicación, los inicios de partida, las jornadas de liga simuladas, los traspasos completados, así como las partidas creadas y cargadas, cada uno con su marca temporal. Estos datos se almacenan exclusivamente en el dispositivo y no se transmiten. Puedes desactivar el registro en la configuración y restablecer allí los datos almacenados en cualquier momento.",
+        },
       ],
     },
     {
@@ -1026,7 +1073,12 @@ const es: PrivacyDocument = {
         },
         {
           type: "p",
-          text: "No se crean perfiles de usuario ni se comparten datos del juego o de los usuarios con terceros.",
+          text: "No se crean perfiles de usuario ni se comparten datos del juego o de los usuarios con terceros sin tu intervención. El uso voluntario del formulario de comentarios se describe en el apartado 5.1.",
+        },
+        { type: "h3", text: "5.1 Formulario de comentarios (Notion)" },
+        {
+          type: "p",
+          text: "A través de «Support & Feedback», la aplicación abre en el navegador un formulario externo de Notion Labs, Inc. (EE. UU.). El envío es voluntario; se transmiten los datos que introduzcas y, opcionalmente, el informe de diagnóstico copiado previamente. La aplicación en sí no transmite ningún dato; además se aplican las políticas de privacidad de Notion.",
         },
       ],
     },
@@ -1046,6 +1098,10 @@ const es: PrivacyDocument = {
         {
           type: "p",
           text: "Al desinstalar la aplicación, el sistema operativo elimina los datos locales asociados.",
+        },
+        {
+          type: "p",
+          text: "Los datos de diagnóstico se pueden restablecer en la configuración; la decisión de activar o desactivar se conserva como ajuste.",
         },
         {
           type: "p",
@@ -1150,7 +1206,7 @@ const es: PrivacyDocument = {
 const fr: PrivacyDocument = {
   title: "Politique de confidentialité – REFOMA Pro",
   updatedLabel: "Dernière mise à jour",
-  updated: "12 novembre 2026",
+  updated: "18 novembre 2026",
   sections: [
     {
       number: "1",
@@ -1245,6 +1301,11 @@ const fr: PrivacyDocument = {
           type: "p",
           text: "Ces informations sont utilisées uniquement localement et ne nous sont pas transmises.",
         },
+        { type: "h3", text: "3.5 Diagnostic d'utilisation local" },
+        {
+          type: "p",
+          text: "L'application compte localement sur votre appareil les lancements de l'application, les débuts de partie, les journées de championnat simulées, les transferts conclus ainsi que les sauvegardes créées et chargées, chacun avec un horodatage. Ces données sont stockées exclusivement sur l'appareil et ne sont pas transmises. Vous pouvez désactiver la collecte dans les paramètres et réinitialiser à tout moment les données enregistrées.",
+        },
       ],
     },
     {
@@ -1293,7 +1354,12 @@ const fr: PrivacyDocument = {
         },
         {
           type: "p",
-          text: "Aucun profil utilisateur n'est créé et aucune donnée de jeu ou donnée utilisateur n'est communiquée à des tiers.",
+          text: "Aucun profil utilisateur n'est créé et aucune donnée de jeu ou donnée utilisateur n'est communiquée à des tiers sans votre intervention. L'utilisation facultative du formulaire de feedback est décrite à la section 5.1.",
+        },
+        { type: "h3", text: "5.1 Formulaire de feedback (Notion)" },
+        {
+          type: "p",
+          text: "Via « Support & Feedback », l'application ouvre dans le navigateur un formulaire externe de Notion Labs, Inc. (États-Unis). L'envoi est facultatif ; les informations que vous saisissez sont transmises, ainsi que, le cas échéant, le rapport de diagnostic copié auparavant. L'application elle-même ne transmet aucune donnée ; les politiques de confidentialité de Notion s'appliquent en complément.",
         },
       ],
     },
@@ -1313,6 +1379,10 @@ const fr: PrivacyDocument = {
         {
           type: "p",
           text: "Lorsque vous désinstallez l'application, les données locales associées sont supprimées par le système d'exploitation.",
+        },
+        {
+          type: "p",
+          text: "Les données de diagnostic peuvent être réinitialisées dans les paramètres ; le choix activé/désactivé est conservé en tant que paramètre.",
         },
         {
           type: "p",
