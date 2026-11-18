@@ -27,17 +27,48 @@ export interface PrivacyDocument {
 export interface PrivacyLanguage {
   code: PrivacyLanguageCode;
   label: string;
+  languageLabel: string;
   backLabel: string;
   inProgressLabel: string;
   pendingNotice?: string;
 }
 
 export const privacyLanguages: PrivacyLanguage[] = [
-  { code: "de", label: "Deutsch", backLabel: "Zurück", inProgressLabel: "in Arbeit" },
-  { code: "en", label: "English", backLabel: "Back", inProgressLabel: "in progress" },
-  { code: "fr", label: "Français", backLabel: "Retour", inProgressLabel: "en cours" },
-  { code: "it", label: "Italiano", backLabel: "Indietro", inProgressLabel: "in corso" },
-  { code: "es", label: "Español", backLabel: "Volver", inProgressLabel: "en curso" },
+  {
+    code: "de",
+    label: "Deutsch",
+    languageLabel: "Sprache",
+    backLabel: "Zurück",
+    inProgressLabel: "in Arbeit",
+  },
+  {
+    code: "en",
+    label: "English",
+    languageLabel: "Language",
+    backLabel: "Back",
+    inProgressLabel: "in progress",
+  },
+  {
+    code: "fr",
+    label: "Français",
+    languageLabel: "Langue",
+    backLabel: "Retour",
+    inProgressLabel: "en cours",
+  },
+  {
+    code: "it",
+    label: "Italiano",
+    languageLabel: "Lingua",
+    backLabel: "Indietro",
+    inProgressLabel: "in corso",
+  },
+  {
+    code: "es",
+    label: "Español",
+    languageLabel: "Idioma",
+    backLabel: "Volver",
+    inProgressLabel: "en curso",
+  },
 ];
 
 const de: PrivacyDocument = {
